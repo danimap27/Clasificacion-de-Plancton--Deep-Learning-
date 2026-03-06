@@ -1,0 +1,21 @@
+name: plancton_dl
+
+channels:
+  - defaults
+  - conda-forge
+
+dependencies:
+  - python=3.10
+  - pip
+  - pandas>=2.2.0
+  - numpy>=1.26.4
+  - matplotlib>=3.8.2
+  - seaborn>=0.13.2
+  - pillow>=10.2.0
+  - scikit-learn>=1.4.0
+  - jupyter
+  - notebook>=7.0.7
+  - nbformat>=5.9.2
+  - ipykernel
+  - pip:
+    - tensorflow>=2.20.0

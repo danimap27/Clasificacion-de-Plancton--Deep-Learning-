@@ -1,0 +1,22 @@
+name: plancton_dl_gpu
+
+channels:
+  - conda-forge
+  - defaults
+
+dependencies:
+  - python=3.10
+  - cudatoolkit=11.2.2
+  - cudnn=8.1.0.77
+  - pip
+  - pandas>=1.5.0
+  - numpy>=1.22.4,<2.0.0
+  - matplotlib>=3.5.0
+  - seaborn>=0.11.0
+  - pillow>=9.0.0
+  - scikit-learn>=1.0.0
+  - jupyter
+  - notebook
+  - ipykernel
+  - pip:
+    - tensorflow<2.11.0

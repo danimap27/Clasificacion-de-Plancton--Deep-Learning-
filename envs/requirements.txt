@@ -1,0 +1,10 @@
+tensorflow>=2.20.0
+pandas>=2.2.0
+numpy>=1.26.4
+matplotlib>=3.8.2
+seaborn>=0.13.2
+Pillow>=10.2.0
+scikit-learn>=1.4.0
+jupyter>=1.0.0
+notebook>=7.0.7
+nbformat>=5.9.2
